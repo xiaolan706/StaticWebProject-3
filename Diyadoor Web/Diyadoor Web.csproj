@@ -121,15 +121,30 @@
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\Site.css" />
-    <Content Include="Cover-1.jpg" />
-    <Content Include="Cover-2.jpg" />
-    <Content Include="Cover-4.jpg" />
+    <Content Include="Image\Cover-1.jpg" />
+    <Content Include="Image\Cover-2.jpg" />
+    <Content Include="Image\Cover-3.jpg" />
+    <Content Include="Image\Cover-4.jpg" />
     <Content Include="Default.aspx" />
-    <Content Include="DiYaLogo.png" />
+    <Content Include="Image\DiYaLogo.png" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
+    <Content Include="Image\P- REMINISCENCE -1.jpg" />
+    <Content Include="Image\P- REMINISCENCE -2.jpg" />
+    <Content Include="Image\P- REMINISCENCE -3.jpg" />
+    <Content Include="Image\P- REMINISCENCE -4.jpg" />
+    <Content Include="Image\P- Wall-1.jpg" />
+    <Content Include="Image\P- Wall-2.jpg" />
+    <Content Include="Image\P- Wall-3.jpg" />
+    <Content Include="Image\P- Wall-4.jpg" />
+    <Content Include="Image\P-River-1.jpg" />
+    <Content Include="Image\P-River-2.jpg" />
+    <Content Include="Image\P-River-3.jpg" />
+    <Content Include="Image\P-River-4.jpg" />
     <Content Include="MainPage.css" />
     <Content Include="MainPage.aspx" />
+    <Content Include="Products.aspx" />
+    <Content Include="Products.css" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
     <Content Include="Scripts\bootstrap.js" />
@@ -219,6 +234,13 @@
     </Compile>
     <Compile Include="MainPage.aspx.designer.cs">
       <DependentUpon>MainPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Products.aspx.cs">
+      <DependentUpon>Products.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Products.aspx.designer.cs">
+      <DependentUpon>Products.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Site.Master.cs">

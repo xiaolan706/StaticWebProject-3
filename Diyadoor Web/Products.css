@@ -1,0 +1,63 @@
+﻿body {
+    font-size: x-large;
+}
+
+header {
+    width: 91%;
+    background-color: white;
+    color: darkblue;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0;
+    overflow: auto;
+    height: 326px;
+}
+
+h1 {
+    font-size: 1.5em;
+    margin: 0 0.5em 0.4em 1.8em;
+    padding: 1px;
+    width: 1081px;
+    height: 56px;
+}
+
+img {
+    margin: 1em 0.5em 0.8em 0;
+    width: 555px;
+}
+
+nav {
+    width: 79%;
+    float: left;
+    margin-left: auto;
+    margin-top: 0;
+}
+
+    nav ul {
+        list-style-type: none;
+        width: 652px;
+        margin-left: auto;
+        height: 30px;
+    }
+
+    nav li {
+        float: left;
+        margin-left: auto;
+        width: 0;
+    }
+
+main {
+    width: 90%;
+    color: black;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+footer {
+    width: 100%;
+    background-color: wheat;
+    color: black;
+    margin-left: 0;
+    height: 100px;
+    padding: 0;
+}
