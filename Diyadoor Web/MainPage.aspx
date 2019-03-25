@@ -5,7 +5,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title>DiYa Door Official Website</title>
-    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="Content/bootstrap.min.css" rel="stylesheet" />
     <link href="Content/Site.css" rel="stylesheet" />
     <link href="MainPage.css" rel="stylesheet" />
@@ -42,7 +42,7 @@
 
 <body> 
     <header>
-      <img id="logo" alt="DIYA logo" class="auto-style1" src="DiYaLogo.png"/>
+      <img id="logo" alt="DIYA logo" class="auto-style1" src="Image/DiYaLogo.png"/>
          <h1 class="auto-style3"><strong>DIYA DOOR</strong></h1>
              <nav>
                  <ul>
@@ -56,16 +56,16 @@
    <main>
      <form id="form1" runat="server" class="form-horizontal">    
       <div>
-          <p><img alt="" class="auto-style2" src="Cover-4.jpg" /></p>
+          <div class="img-fluid"><img alt="Cover" class="auto-style2" src="Image/Cover-4.jpg" /></div>
           <div style="text-align:center">
               <h1 class="auto-style4"><strong>Create the home you deserve</strong></h1>
           </div>
           <div id="wrap" style="text-align:center">
               <div class="left">
-                  <img class="auto-style5" src="Cover-1.jpg"/>
+                  <img class="auto-style5" src="Image/Cover-1.jpg"/>
               </div>
               <div class="right">
-                  <img class="auto-style5" src="Cover-2.jpg"/>
+                  <img class="auto-style5" src="Image/Cover-2.jpg"/>
               </div>
           </div>
          

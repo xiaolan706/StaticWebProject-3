@@ -5,7 +5,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title>Products Center</title>
-    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="Content/bootstrap.min.css" rel="stylesheet" />
     <link href="Content/Site.css" rel="stylesheet" />
     <link href="Products.css" rel="stylesheet" />
@@ -59,7 +59,7 @@
 
 <body> 
     <header>
-      <img id="logo" alt="DIYA logo" class="auto-style1" src="DiYaLogo.png"/>
+      <img id="logo" alt="DIYA logo" class="auto-style1" src="Image/DiYaLogo.png"/>
          <h1 class="auto-style3"><strong>DIYA DOOR</strong></h1>
              <nav>
                  <ul>
