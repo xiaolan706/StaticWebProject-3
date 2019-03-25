@@ -15,7 +15,7 @@
     <style type="text/css">
         #logo {
             height: 122px;
-            width: 395px;
+            width: 405px;
         }
         .auto-style1 {
             width: 346px;
@@ -26,11 +26,14 @@
             height: 396px;
         }
         .auto-style3 {
-            font-size: 3em;
+            font-size: 2em;
+            font-family: Century, Times New Roman;
+            color:blue;
+            text-align: left;
         }
         .auto-style4 {
-            font-size: 3em;
-
+            font-size: 2em;
+            font-family: Century, Times New Roman;
             text-decoration: underline;
             color: #000000;
         }
@@ -43,9 +46,9 @@
          <h1 class="auto-style3"><strong>DIYA DOOR</strong></h1>
              <nav>
                  <ul>
-                    <li style="width: 84px"><a href="MainPage.aspx">Home</a></li>
-                    <li style="width: 85px"><a href="Products.aspx">Products</a></li>
-                    <li style="width: 117px"><a href="AboutUs.aspx">Contact DIYA</a></li>
+                    <li style="width: 185px"><a href="MainPage.aspx">Home</a></li>
+                    <li style="width: 216px"><a href="Products.aspx">Products</a></li>
+                    <li style="width: 209px"><a href="AboutUs.aspx">Contact&nbsp; DIYA</a></li>
                  </ul>       
            </nav>    
      </header>
@@ -64,14 +67,18 @@
               <div class="right">
                   <img class="auto-style5" src="Cover-2.jpg"/>
               </div>
-
           </div>
-
-
+         
           
 
-      </div>
+        <div id ="footer">
+        <footer>
+            <small>Copyright © 2019 Jin Tang</small>
+        </footer>
+        </div>
+    </div>
     </form>
     </main>
+
 </body>
 </html>
