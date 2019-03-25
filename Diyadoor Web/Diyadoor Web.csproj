@@ -113,6 +113,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="AboutUs.aspx" />
+    <Content Include="AboutUs.css" />
     <Content Include="Contact.aspx" />
     <Content Include="Content\bootstrap-grid.css" />
     <Content Include="Content\bootstrap-grid.min.css" />
@@ -129,6 +131,7 @@
     <Content Include="Image\DiYaLogo.png" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
+    <Content Include="Image\Factory.jpg" />
     <Content Include="Image\P- REMINISCENCE -1.jpg" />
     <Content Include="Image\P- REMINISCENCE -2.jpg" />
     <Content Include="Image\P- REMINISCENCE -3.jpg" />
@@ -141,6 +144,7 @@
     <Content Include="Image\P-River-2.jpg" />
     <Content Include="Image\P-River-3.jpg" />
     <Content Include="Image\P-River-4.jpg" />
+    <Content Include="Image\shebei.jpg" />
     <Content Include="MainPage.css" />
     <Content Include="MainPage.aspx" />
     <Content Include="Products.aspx" />
@@ -209,6 +213,13 @@
     <Content Include="Site.Mobile.Master" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AboutUs.aspx.cs">
+      <DependentUpon>AboutUs.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AboutUs.aspx.designer.cs">
+      <DependentUpon>AboutUs.aspx</DependentUpon>
+    </Compile>
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Contact.aspx.cs">

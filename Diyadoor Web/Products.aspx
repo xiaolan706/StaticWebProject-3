@@ -51,6 +51,9 @@
             height:auto;
             float:right;
         }
+        .auto-style5 {
+            color: #33CCCC;
+        }
     </style>
 </head>
 
@@ -62,7 +65,7 @@
                  <ul>
                     <li style="width: 185px"><a href="MainPage.aspx">Home</a></li>
                     <li style="width: 216px"><a href="Products.aspx">Products</a></li>
-                    <li style="width: 209px"><a href="AboutUs.aspx">Contact&nbsp; DIYA</a></li>
+                    <li style="width: 209px"><a href="AboutUs.aspx">About&nbsp; DIYA</a></li>
                  </ul>       
            </nav>    
      </header>
@@ -124,7 +127,7 @@
                   <img src="Image/P-%20Wall-2.jpg" />
               </div>
            </div>
-          <div id="wrap6" style="text-align:center; height: 478px; width: 1176px;">
+          <div id="wrap6" style="text-align:center; height: 501px; width: 1176px;">
               <div class="left">
                   <img src="Image/P-%20Wall-3.jpg" />
               </div>
@@ -133,6 +136,9 @@
               </div>
           </div>
           
+          <div style="text-align:center">
+              <h2 class="auto-style5">More series and more color available in our stores</h2>
+          </div>
 
         <div id ="footer">
         <footer>
