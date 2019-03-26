@@ -74,7 +74,7 @@
           <div style="text-align:center">
               <h1 class="auto-style4"><strong>Our Story</strong></h1>
               <p>Chongqing Diya Suite Door Co., Ltd. is a large-scale modern wooden door and custom furniture manufacturer integrating design, production, sales and service. 
-                  The company has two production bases, Wellhead and Changshou, which cover an area of more than 100 acres and a standard factory building of 50,000m. 
+                  The company has two production bases, Jingkou and Changshou, which cover an area of more than 100 acres and a standard factory building of 50,000m. 
                   The company's production capacity is around 300,000 sets/year of wooden doors and custom furniture.</p>
           </div>
           <div id="wrap" style="text-align:center">
@@ -86,7 +86,7 @@
           </div>
          <div>
              <p>Phone: +86 400-023-0183</p>
-             <p>Fax: +86 023-65180188</p>
+             <p>Fax:   +86 023-6518-0188</p>
              <p>Address1: Industrial park of Jingkou, Shapingba, Chongqing, China 400033</p>
              <p>Address2: Jiayuan Industrial park, Changshou, Chongqing, China 401220</p>
          </div>
