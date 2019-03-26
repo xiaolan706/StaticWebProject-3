@@ -87,8 +87,8 @@
          <div>
              <p>Phone: +86 400-023-0183</p>
              <p>Fax:   +86 023-6518-0188</p>
-             <p>Address1: Industrial park of Jingkou, Shapingba, Chongqing, China 400033</p>
-             <p>Address2: Jiayuan Industrial park, Changshou, Chongqing, China 401220</p>
+             <p>Headquarters Address: Jiayuan Industrial park, Changshou, Chongqing, China 401220</p>
+             <p>Branch Address: Industrial park of Jingkou, Shapingba, Chongqing, China 400033</p>
          </div>
           
 
