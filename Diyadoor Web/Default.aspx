@@ -1,42 +1,84 @@
-﻿<%@ Page Title="Home Page" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="Diyadoor_Web._Default" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="Diyadoor_Web.MainPage1" %>
 
-<asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
+<!DOCTYPE html>
 
-    <div class="jumbotron">
-        <h1>ASP.NET</h1>
-        <p class="lead">ASP.NET is a free web framework for building great Web sites and Web applications using HTML, CSS, and JavaScript.</p>
-        <p><a href="http://www.asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>DiYa Door Official Website</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="Content/Site.css" rel="stylesheet" />
+    <link href="MainPage.css" rel="stylesheet" />
+    <script src="Scripts/jquery-3.3.1.min.js"></script>
+    <script src="Scripts/bootstrap.min.js"></script>
+
+    <style type="text/css">
+        #logo {
+            height: 122px;
+            width: 405px;
+        }
+        .auto-style1 {
+            width: 346px;
+            height: 125px;
+        }
+        .auto-style2 {
+            width: 1333px;
+            height: 396px;
+        }
+        .auto-style3 {
+            font-size: 2em;
+            font-family: Century, Times New Roman;
+            color:blue;
+            text-align: left;
+        }
+        .auto-style4 {
+            font-size: 1.6em;
+            font-family: Century, Times New Roman;
+            text-decoration: underline;
+            color: #000000;
+        }
+    </style>
+</head>
+
+<body> 
+    <header>
+      <img id="logo" alt="DIYA logo" class="auto-style1" src="Image/DiYaLogo.png"/>
+         <h1 class="auto-style3"><strong>DIYA DOOR</strong></h1>
+             <nav>
+                 <ul>
+                    <li style="width: 185px"><a href="MainPage.aspx">Home</a></li>
+                    <li style="width: 216px"><a href="Products.aspx">Products</a></li>
+                    <li style="width: 209px"><a href="AboutUs.aspx">About&nbsp; DIYA</a></li>
+                 </ul>       
+           </nav>    
+     </header>
+
+   <main>
+     <form id="form1" runat="server" class="form-horizontal">    
+      <div>
+          <div class="img-fluid"><img alt="Cover" class="auto-style2" src="Image/Cover-4.jpg" /></div>
+          <div style="text-align:center">
+              <h1 class="auto-style4"><strong>Create the home you deserve</strong></h1>
+          </div>
+          <div id="wrap" style="text-align:center">
+              <div class="left">
+                  <img class="auto-style5" src="Image/Cover-1.jpg"/>
+              </div>
+              <div class="right">
+                  <img class="auto-style5" src="Image/Cover-2.jpg"/>
+              </div>
+          </div>
+         
+          
+
+        <div id ="footer">
+        <footer>
+            <small>Copyright © 2019 Jin Tang</small>
+        </footer>
+        </div>
     </div>
+    </form>
+    </main>
 
-    <div class="row">
-        <div class="col-md-4">
-            <h2>Getting started</h2>
-            <p>
-                ASP.NET Web Forms lets you build dynamic websites using a familiar drag-and-drop, event-driven model.
-            A design surface and hundreds of controls and components let you rapidly build sophisticated, powerful UI-driven sites with data access.
-            </p>
-            <p>
-                <a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301948">Learn more &raquo;</a>
-            </p>
-        </div>
-        <div class="col-md-4">
-            <h2>Get more libraries</h2>
-            <p>
-                NuGet is a free Visual Studio extension that makes it easy to add, remove, and update libraries and tools in Visual Studio projects.
-            </p>
-            <p>
-                <a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301949">Learn more &raquo;</a>
-            </p>
-        </div>
-        <div class="col-md-4">
-            <h2>Web Hosting</h2>
-            <p>
-                You can easily find a web hosting company that offers the right mix of features and price for your applications.
-            </p>
-            <p>
-                <a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301950">Learn more &raquo;</a>
-            </p>
-        </div>
-    </div>
-
-</asp:Content>
+</body>
+</html>
